@@ -4,21 +4,21 @@ import { Helmet } from 'react-helmet';
 function App() {
   return (
     <div>
-    <Helmet>
-      <title>Here's the Title!</title>
-      <meta name="description" content="This is what you want to show as the page content in the Google SERP Listing sjkfjskfjksjdfksjdfksjdkfjsdkfjsdkfjsfksjdf" />
-    </Helmet>
-    <h1>My Amazing React SEO Page nine sense is everything in the world best awesome project</h1>
-    <p>Hello World!</p>
-    <Router>
-      <div>
-        <Header />
-        <div>sdfsdfsd</div>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/topics" component={Topics} />
-      </div>
-    </Router>
+      <Helmet>
+        <title>Here's the Title!</title>
+        <meta name="description" content="This is what you want to show as the page content in the Google SERP Listing sjkfjskfjksjdfksjdfksjdkfjsdkfjsdkfjsfksjdf" />
+      </Helmet>
+      <h1>My Amazing React SEO Page nine sense is everything in the world best awesome project</h1>
+      <p>Hello World!</p>
+      <Router>
+        <div>
+          <Header />
+          <div>sdfsdfsd</div>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/topics" component={Topics} />
+        </div>
+      </Router>
     </div>
   );
 }
